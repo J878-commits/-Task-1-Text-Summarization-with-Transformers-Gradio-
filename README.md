@@ -23,6 +23,8 @@ demo = gr.Interface(fn=summarize_text,
 
 demo.launch()
 
+Direct Task link : https://colab.research.google.com/drive/1JH9DD-Kn-pwYWhcQdzRUXyVcFrOCd4E1?usp=sharing
+
 🧠 Task 1 Summary: Text Summarization Tool In this task, we designed and implemented a Python-based tool that performs abstractive text summarization using state-of-the-art Natural Language Processing (NLP) techniques. The goal was to convert lengthy articles into concise, readable summaries—enhancing accessibility, comprehension, and productivity across domains like education, journalism, and civic tech.
 
 🔍 Approach & Implementation We leveraged the Hugging Face Transformers library and the pretrained facebook/bart-large-cnn model, known for its robust performance in summarizing long-form content. The summarization logic was wrapped in a clean Python function and deployed via a Gradio interface, allowing users to input text and instantly view the generated summary.
